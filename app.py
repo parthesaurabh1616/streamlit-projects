@@ -28,10 +28,10 @@ def load_data(uploaded_file):
 st.title("🚚 Delivery Delay Prediction System")
 
 # Sidebar - File Upload
-st.sidebar.header("C://Users/saura/Downloads/Processed_Sales_Data.xls")
-sales_file = st.sidebar.file_uploader("C://Users/saura/Downloads/Sales_Data.csv", type=["csv"])
-iod_file = st.sidebar.file_uploader("C://Users/saura/Downloads/IOD.csv", type=["csv"])
-obd_file = st.sidebar.file_uploader("C://Users/saura/Downloads/OBD.csv", type=["csv"])
+st.sidebar.header("Path To Dataset")
+sales_file = st.sidebar.file_uploader("Path To Datset", type=["csv"])
+iod_file = st.sidebar.file_uploader("Path To Dataset", type=["csv"])
+obd_file = st.sidebar.file_uploader("Path To Dataset", type=["csv"])
 
 
 # In[5]:
